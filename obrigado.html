@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex" />
+  <title>Recebemos seu contato | Alkance Resultados</title>
+  <link rel="icon" href="/favicon.ico" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: hsl(222 72% 7%);
+      --card: hsl(222 62% 11%);
+      --border: hsl(222 45% 24%);
+      --text: hsl(0 0% 95%);
+      --muted: hsl(0 0% 70%);
+      --cta: linear-gradient(135deg, hsl(212 100% 55%), hsl(192 100% 58%));
+      --accent: hsl(192 100% 62%);
+    }
+    * { box-sizing: border-box; }
+    html, body { height: 100%; margin: 0; }
+    body {
+      display: flex; align-items: center; justify-content: center; padding: 24px;
+      background: radial-gradient(circle at 50% 0%, hsl(215 70% 18%) 0%, var(--bg) 60%);
+      color: var(--text); font-family: Inter, system-ui, -apple-system, Segoe UI, sans-serif;
+    }
+    main {
+      width: 100%; max-width: 520px; text-align: center; padding: 40px 32px;
+      background: var(--card); border: 1px solid var(--border); border-radius: 20px;
+      box-shadow: 0 10px 40px rgba(0,0,0,.4);
+    }
+    .check {
+      width: 64px; height: 64px; margin: 0 auto 20px; border-radius: 50%;
+      background: var(--cta); display: grid; place-items: center;
+    }
+    h1 { font-family: "Space Grotesk", system-ui, sans-serif; font-size: 1.75rem; margin: 0 0 12px; }
+    p { color: var(--muted); line-height: 1.6; margin: 0 0 28px; }
+    .btn {
+      display: inline-block; padding: 14px 28px; border-radius: 12px; font-weight: 500;
+      text-decoration: none; color: #fff; background: var(--cta);
+      box-shadow: 0 4px 20px hsl(212 100% 50% / .4);
+    }
+    .link { display: block; margin-top: 18px; color: var(--accent); text-decoration: none; font-size: .95rem; }
+    .link:hover { text-decoration: underline; }
+  </style>
+  <!-- Se usar Meta Pixel ou Google Ads, dispare o evento de conversão (Lead) aqui. -->
+</head>
+<body>
+  <main>
+    <div class="check" aria-hidden="true">
+      <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>
+    </div>
+    <h1>Recebemos seu contato!</h1>
+    <p>Vamos analisar as informações e falar com você em breve. Se preferir adiantar a conversa, chame a gente agora no WhatsApp.</p>
+    <a class="btn" href="https://wa.me/5524993186949?text=Acabei%20de%20preencher%20o%20formul%C3%A1rio%20de%20diagn%C3%B3stico" target="_blank" rel="noopener noreferrer">Falar no WhatsApp</a>
+    <a class="link" href="/">Voltar para o site</a>
+  </main>
+</body>
+</html>
